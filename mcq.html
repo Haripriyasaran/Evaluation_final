@@ -5,12 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Multiple Choice Questions</title>
 <style>
-    body{
+    .mcq-container{
         justify-content: center;
         align-items: center;
         display: flex;
         font-weight: bolder;
         font-size:x-large;
+    }
+    body{
+       
+        background-color:aliceblue;
     }
     .options li{
         margin: 10%;
@@ -48,7 +52,9 @@
 </style>
 </head>
 <body>
-<!-- <div id="question1" class="question current-question" data-correct="C">
+    <h1></h1>
+    <div class="mcq-container">
+        <!-- <div id="question1" class="question current-question" data-correct="C">
     1. What is the primary concern of Ralph in the excerpt?
     <ul class="options">
         <li data-option="A">A) Building a fort</li>
@@ -187,6 +193,8 @@
 </div>
 
 <button id="nextButton"  style="padding:.5%;" >  Next  </button>
+
+    </div>
 
 <script>
     let currentQuestionIndex = 0;
