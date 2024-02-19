@@ -11,7 +11,7 @@ int main() {
     
     mul = num1 * num2;
     
-    printf("The product of %d and %d is %d.", num1, num2, result);
+    printf("The result of %d and %d is %d.", num1, num2, result);
     
     return 0;
 }
