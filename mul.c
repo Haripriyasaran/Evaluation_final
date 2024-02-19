@@ -5,7 +5,7 @@ int main() {
     scanf("%lf %lf", &a, &b)
  
     // Calculating product
-    product = a * b;
+    product = a * b; //logic
 
     // %.2lf displays number up to 2 decimal point
     printf("Product = %.2lf", product);
