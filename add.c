@@ -1,17 +1,14 @@
 #include <stdio.h>
-
 int main() {
-    int num1, num2, sum;
-    
-    printf("Enter the first number: ");
-    scanf("%d", &num1);
-    
-    printf("Enter the second number: ");
-    scanf("%d", &num2);
-    
-    sum = num1 + num2;
-    
-    printf("The sum of %d and %d is %d.", num1, num2, sum);
+    double a, b, product;
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &a, &b);  
+ 
+    // Calculating product
+    product = a * b;
+
+    // %.2lf displays number up to 2 decimal point
+    printf("Product = %.2lf", product);
     
     return 0;
 }
