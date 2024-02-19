@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+void main() {
   double num1, num2, product;
   cout << "Enter two numbers: ";
 
@@ -12,6 +12,4 @@ int main() {
   product = num1 * num2;  
 
   cout << "Product = " << product;    
-    
-  return 0;
 }   
