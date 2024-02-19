@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
  
 void main()
@@ -11,3 +12,15 @@ void main()
         printf("%d x %d = %d\n", n, i, n * i);
     return 0;
             }
+=======
+#include<stdio.h>
+int main()
+{
+	int num1,num2,product;
+	printf("Enter two numbers:");
+	scanf("%d %d",&num1,&num2);
+	product=num1*num2;
+	printf("Product of two numbers: %d",product);
+	return  0;
+}
+>>>>>>> 3c0d633b8067b7530447796b5102bd78fd6ec1b8
