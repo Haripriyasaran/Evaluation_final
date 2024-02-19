@@ -10,5 +10,5 @@ int main(){
   
   difference = num1 - num2;
   printf("Difference of %d and %d is: %d", num1, num2, difference);
-  return 0
+  retu
 }
