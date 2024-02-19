@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Choice Questions</title>
+<style>
+    body{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: bolder;
+        font-size:x-large;
+    }
+    .options li{
+        margin: 10%;
+    }
+    .question {
+        display: none;
+    }
+    .current-question {
+        display: block;
+    }
+    .answer {
+        margin-left: 20px;
+        display: none;
+    }
+    .correct {
+        color: green;
+    }
+    .incorrect {
+        color: red;
+    }
+    button{
+        background-color: rgb(75, 75, 206);
+        list-style: none;
+        border: none;
+        border-radius: 5px;
+        font-size:larger;
+        font-family: s;
+        margin: 10%;
+        padding: 3%;
+    }
+    button:hover{
+        background-color:rgba(240, 248, 255, 0.541);
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<!-- <div id="question1" class="question current-question" data-correct="C">
+    1. What is the primary concern of Ralph in the excerpt?
+    <ul class="options">
+        <li data-option="A">A) Building a fort</li>
+        <li data-option="B">B) Finding fresh water</li>
+        <li data-option="C">C) Investigating the mountain</li>
+        <li data-option="D">D) Rolling rocks</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: C) Investigating the mountain</div>
+</div> -->
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 2 -->
+<div id="question2" class="question" data-correct="D">
+    1. What does Ralph suggest they do to ensure their safety?
+    <ul class="options">
+        <li data-option="A">A) Roll rocks</li>
+        <li data-option="B">B) Stay in the castle</li>
+        <li data-option="C">C) Return to the beach</li>
+        <li data-option="D">D) Explore the mountain</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: D) Explore the mountain</div>
+</div>
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 3 -->
+<div id="question3" class="question" data-correct="B">
+    2. What is the reaction of the other boys to Ralph's suggestion?
+    <ul class="options">
+        <li data-option="A">A) They enthusiastically agree</li>
+        <li data-option="B">B) They mutinously resist</li>
+        <li data-option="C">C) They suggest staying in the castle</li>
+        <li data-option="D">D) They propose returning to the beach</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: B) They mutinously resist</div>
+</div>
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 4 -->
+<!-- <div id="question4" class="question" data-correct="A">
+    4. What does Jack suggest they do instead of investigating the mountain?
+    <ul class="options">
+        <li data-option="A">A) Build a fort</li>
+        <li data-option="B">B) Roll rocks</li>
+        <li data-option="C">C) Look for fruit</li>
+        <li data-option="D">D) Stay in the castle</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: A) Build a fort</div>
+</div> -->
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 5 -->
+<!-- <div id="question5" class="question" data-correct="A">
+    5. What reason does Ralph give for not staying in the castle?
+    <ul class="options">
+        <li data-option="A">A) Lack of food and water</li>
+        <li data-option="B">B) Fear of the beast</li>
+        <li data-option="C">C) Desire to explore the island</li>
+        <li data-option="D">D) Need to maintain order</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: A) Lack of food and water</div>
+</div> -->
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 6 -->
+<div id="question6" class="question" data-correct="C">
+    3. Who leads the way down the rock and across the bridge at the end of the excerpt?
+    <ul class="options">
+        <li data-option="A">A) Ralph</li>
+        <li data-option="B">B) Simon</li>
+        <li data-option="C">C) Jack</li>
+        <li data-option="D">D) Piggy</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: C) Jack</div>
+</div>
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 7 -->
+<!-- <div id="question7" class="question" data-correct="B">
+    7. What is the mood among the boys as they consider their options?
+    <ul class="options">
+        <li data-option="A">A) Enthusiastic</li>
+        <li data-option="B">B) Fearful</li>
+        <li data-option="C">C) Confused</li>
+        <li data-option="D">D) Indifferent</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: B) Fearful</div>
+</div> -->
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 8 -->
+<!-- <div id="question8" class="question" data-correct="B">
+    8. What do the boys prioritize over their safety?
+    <ul class="options">
+        <li data-option="A">A) Exploration</li>
+        <li data-option="B">B) Comfort</li>
+        <li data-option="C">C) Leadership</li>
+        <li data-option="D">D) Survival</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: B) Comfort</div>
+</div> -->
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 9 -->
+<div id="question9" class="question" data-correct="A">
+    4. What is Ralph's position among the boys?
+    <ul class="options">
+        <li data-option="A">A) Chief</li>
+        <li data-option="B">B) Hunter</li>
+        <li data-option="C">C) Outcast</li>
+        <li data-option="D">D) Mutineer</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: A) Chief</div>
+</div>
+
+<!-- Repeat the above structure for other questions -->
+<!-- Question 10 -->
+<div id="question10" class="question" data-correct="C">
+    . What do the boys struggle with throughout the excerpt?
+    <ul class="options">
+        <li data-option="A">A) Building a shelter</li>
+        <li data-option="B">B) Finding food</li>
+        <li data-option="C">C) Fear of the beast</li>
+        <li data-option="D">D) Establishing rules</li>
+    </ul>
+    <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+    <div class="answer">Answer: C) Fear of the beast</div>
+</div>
+
+<button id="nextButton"  style="padding:.5%;" >  Next  </button>
+
+<script>
+    let currentQuestionIndex = 0;
+    const questions = document.querySelectorAll('.question');
+    const nextButton = document.getElementById('nextButton');
+
+    function showQuestion(index) {
+        questions.forEach((question, i) => {
+            if (i === index) {
+                question.classList.add('current-question');
+            } else {
+                question.classList.remove('current-question');
+            }
+        });
+    }
+
+    function showAnswer() {
+        const currentQuestion = questions[currentQuestionIndex];
+        const answerDiv = currentQuestion.querySelector('.answer');
+        answerDiv.style.display = 'block';
+    }
+
+    function showNextQuestion() {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            showQuestion(currentQuestionIndex);
+        } else {
+            alert('End of questions.');
+        }
+    }
+
+    nextButton.addEventListener('click', () => {
+        showAnswer();
+        showNextQuestion();
+    });
+
+    // Show the first question initially
+    showQuestion(currentQuestionIndex);
+</script>
+</body>
+</html>
