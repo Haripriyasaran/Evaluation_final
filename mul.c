@@ -2,7 +2,7 @@
 #incluce <conio.h>
 
 int main() {
-    int num1, num2, result;
+    int num1, num
     
     printf("Enter the first number");
     printf("the first number is:")
