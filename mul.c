@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {    
+void main() 
+{    
 
     int number1, number2, sum;
     
@@ -9,6 +10,5 @@ int main() {
     // calculate the sum
     sum = number1 + number2;      
     
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+    printf("%d + %d = %d", number1, number2, sum)
 }
