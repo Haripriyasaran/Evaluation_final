@@ -11,6 +11,10 @@ void main() {
   // performs multiplication and stores the result in product variable
   product = num1 * num2;  
 
+<<<<<<< HEAD
   cout << "Product = " << product;    
+=======
+  cout << "Product = " << product;
+>>>>>>> 7548ccdf850457206deb94534e54e10a64958e69
 
 }   
