@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+<<<<<<< HEAD
 int void() {
     int a, b, summation;
+=======
+int main() {
+    int a, b, sum;
+>>>>>>> origin/main
     
     printf("Enter the first number: ");
     scanf("%d", &a);
