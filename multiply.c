@@ -2,7 +2,7 @@
 using namespace std;
 
 <<<<<<< HEAD
-int main() 
+void main() 
 {
 =======
 int main() {
@@ -21,5 +21,4 @@ int main() {
 =======
   cout << "Product = " << product;
 >>>>>>> 7548ccdf850457206deb94534e54e10a64958e69
-return 0;
 }   
