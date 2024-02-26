@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 
+<<<<<<< HEAD
 int main() 
 {
+=======
+int main() {
+>>>>>>> e3f6af9ed60988191cc8c05372b100ba87307f43
   double num1, num2, product;
   cout << "Enter two numbers: ";
 
