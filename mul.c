@@ -4,7 +4,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%lf %lf", &a, &b)::;
  
-    // Calculating product
+    
     product = a + b; //logic
 
     // %.2lf displays number up to 2 decimal point
