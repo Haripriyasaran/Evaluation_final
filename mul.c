@@ -3,11 +3,7 @@ int main() {
     double a, b, product;
     printf("Enter two numbers: ");
     scanf("%lf %lf", &a, &b)::;
- 
-    
-    product = a + b; //logic
-
-    // %.2lf displays number up to 2 decimal point
+  product = a + b; //logic
     printf("Product = %.2lf", product);
     
     return 0;
