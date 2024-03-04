@@ -1,17 +1,22 @@
 #include <stdio.h>
 
+<<<<<<< HEAD
+int void() {
+    int a, b, summation;
+=======
 int main() {
-    int num1, num2, sum;
+    int a, b, sum;
+>>>>>>> origin/main
     
     printf("Enter the first number: ");
-    scanf("%d", &num1);
+    scanf("%d", &a);
     
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%d", &b);
     
-    sum = num1 + num2;
+    summation = a + b;
     
-    printf("The sum of %d and %d is %d.", num1, num2, sum);
+    printf("The sum of %d and %d is %d.", a, b, add);
     
     return 0;
 }
