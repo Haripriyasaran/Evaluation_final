@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &num2);
     
     sum = num1 + num2;
-    
+    printf("the sum is");
     printf("The sum of %d and %d is %d.", num1, num2, sum);
     
     return 0;
