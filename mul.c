@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdi
 int main() {
   int n;
   printf("Enter an inte
