@@ -7,11 +7,11 @@ int main() {
     scanf("%d", &num1);
     
     printf("Enter the second number: ");
-    scanf("%d", &num2);
+    scanf("%d", &num4);
     
-    sum = num1 + num2;
+    sum = num1 + num4;
     
-    printf("The sum of %d and %d is %d.", num1, num2, sum);
+    printf("The sum of %d and %d is %d.", num1, num4, sum);
     
     return 0;
 }
